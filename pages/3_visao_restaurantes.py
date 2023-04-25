@@ -286,7 +286,7 @@ with tab1:
         st.markdown("""___""")
         st.markdown('##### Tempo médio de entrega por cidade')
         fig = avg_std_time_graph(df1)
-        st.plotly_chart(fig)
+        st.plotly_chart(fig, use_container_width=True)
         
     
     with st.container():
